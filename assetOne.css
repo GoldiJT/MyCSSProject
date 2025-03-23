@@ -320,6 +320,7 @@ html.theme-light .container__37e49 {
 [class*=scrollerBase_]::-webkit-scrollbar-track,
 .container__55c99::-webkit-scrollbar-track {
   margin: 0;
+  display: none; /* selfmade */
 }
 .members_c8ffbb::-webkit-scrollbar-track-piece,
 .peopleList__5ec2f::-webkit-scrollbar-track-piece,
