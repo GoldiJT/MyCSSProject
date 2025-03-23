@@ -15,10 +15,6 @@
 @import url("https://discordstyles.github.io/Addons/windows-titlebar.css"); /* Windows titlebar. | Remove this line to disable. */
 :root {
   /*
-   * Custom variables
-   */
-	
-  /*
    * SoftX variables
    */
   --background-image: url("https://imgur.com/GnQ4kdQ.png"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
