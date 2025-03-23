@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.2.1";
+  --asset-version: "0.0.0";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -330,6 +330,7 @@ html.theme-light .container__37e49 {
 [class*=scrollerBase_]::-webkit-scrollbar-track-piece,
 .container__55c99::-webkit-scrollbar-track-piece {
   background: transparent;
+  display: none; /* selfmade */
   border-color: transparent;
 }
 .members_c8ffbb::-webkit-scrollbar-thumb,
@@ -344,6 +345,7 @@ html.theme-light .container__37e49 {
   border-radius: 0;
   border-radius: var(--border-radius);
   border: none;
+  display: none; /* selfmade */
 }
 .members_c8ffbb::-webkit-scrollbar-thumb:hover,
 .peopleList__5ec2f::-webkit-scrollbar-thumb:hover,
@@ -354,6 +356,7 @@ html.theme-light .container__37e49 {
 [class*=scrollerBase_]::-webkit-scrollbar-thumb:hover,
 .container__55c99::-webkit-scrollbar-thumb:hover {
   background-color: var(--scrollbar-background-hover);
+  display: none; /* selfmade */
 }
 .members_c8ffbb::-webkit-scrollbar-thumb:active,
 .peopleList__5ec2f::-webkit-scrollbar-thumb:active,
@@ -364,6 +367,7 @@ html.theme-light .container__37e49 {
 [class*=scrollerBase_]::-webkit-scrollbar-thumb:active,
 .container__55c99::-webkit-scrollbar-thumb:active {
   background-color: var(--scrollbar-background-active);
+  display: none; /* selfmade */
 }
 .members_c8ffbb::-webkit-scrollbar-button, .members_c8ffbb::-webkit-scrollbar-corner,
 .peopleList__5ec2f::-webkit-scrollbar-button,
@@ -390,7 +394,8 @@ html.theme-light .container__37e49 {
 .list_e29cd7:hover::-webkit-scrollbar,
 [class*=scrollerBase_]:hover::-webkit-scrollbar,
 .container__55c99:hover::-webkit-scrollbar {
-  display: block;
+  /*display: block;*/
+  display: none; /* selfmade */
 }
 
 #app-mount .tooltipPrimary__382e7 {
