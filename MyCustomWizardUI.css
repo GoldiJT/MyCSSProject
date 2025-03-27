@@ -475,6 +475,7 @@ div[class^=folder_],
     border-radius: 2.5px !important;
     background-color: var(--Primary) !important;
     border: 1px solid var(--grey);
+    display: none; /* new */
 }
 
 .textArea__74017::-webkit-scrollbar-track,
@@ -484,6 +485,7 @@ div[class^=folder_],
 .scrollbarDefault__506b3::-webkit-scrollbar-track,
 .auto_c8b5c7::-webkit-scrollbar-track {
     border: none;
+    display: none; /* new */
 }
 
 .textArea__74017::-webkit-scrollbar-track-piece,
@@ -497,6 +499,7 @@ div[class^=folder_],
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     border-radius: 0px !important;
+    display: none; /* new */
 }
 
 .scroller__7d20c,
@@ -504,6 +507,7 @@ div[class^=folder_],
 .scroller__7d20c,
 .wrapper__00943 {
     border: none !important;
+    display: none; /* new */
 }
 
 .channelAppLauncher_e6e74f,
